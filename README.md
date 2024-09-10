@@ -1,3 +1,3 @@
 # Dragonfly
 
-Developed by: Team Chris, Jed, Uriah
+Developed by: Team (Chris, Jed, Uriah)
