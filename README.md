@@ -1,3 +1,3 @@
-# Dragonfly
+# Distributed System - Song Recommendations
 
-Developed by: Team (Chris, Jed, Uriah)
+Developed by: Chris, Jed, Uriah
