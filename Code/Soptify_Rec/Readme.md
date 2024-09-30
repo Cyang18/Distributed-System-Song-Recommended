@@ -1,3 +1,5 @@
+To Get Your API Working:
+
 So go to https://developer.spotify.com/ and make/sign-in to your soptify account.
 
 Head to dashboard. On the same web. And select create app, once you made a app, just give it a name and description.
