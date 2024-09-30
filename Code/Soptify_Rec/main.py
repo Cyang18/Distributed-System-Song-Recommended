@@ -56,7 +56,7 @@ def get_songs_by_artist(token, artist_id):
 
     
 token = get_token()   
-result = search_for_artist(token, "") #place artist name here " "
+result = search_for_artist(token, "") #place artist name here 
 #print(result["name"])
 artist_id = result["id"]
 songs = get_songs_by_artist(token, artist_id)
