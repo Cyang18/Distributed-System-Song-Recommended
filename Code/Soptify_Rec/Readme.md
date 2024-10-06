@@ -10,6 +10,8 @@ From there, once the project is made, open it, and click the option setting.
 
 After opening setting, find your Client ID and Client Secret ID. Then copy these ID, and place them into .env.
 
+
+
 Second Step:
 
 To test, if the data fetching work run (GettingData.py)
