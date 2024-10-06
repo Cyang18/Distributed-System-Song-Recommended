@@ -21,7 +21,9 @@ async function fetchWebApi(endpoint, method, body) {
 }
 
 const topTracksIds = [
-]; //place given track Id
+  '35JqhVvhuyBoPLLUY8Klqd', '4g2WiijzSKzH8PApKDbadN',
+  '7KW1AtQKFToSoF1kmyk2wE', '2pIUpMhHL6L9Z5lnKxJJr9', '4osgfFTICMkcGbbigdsa53'
+];
 
 async function getRecommendations() {
   return (await fetchWebApi(
