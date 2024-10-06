@@ -14,7 +14,6 @@ client_credentials_manager = SpotifyClientCredentials(
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 def get_artist_info(artist_name):
-
     results = sp.search(q=artist_name, type='artist')
     if results['artists']['items']:
         artist = results['artists']['items'][0]
@@ -27,8 +26,8 @@ def get_artist_info(artist_name):
         }
     return None
 
+
 def get_track_info(track_name):
- 
     results = sp.search(q=track_name, type='track')
     if results['tracks']['items']:
         track = results['tracks']['items'][0]
@@ -41,6 +40,11 @@ def get_track_info(track_name):
             'external_url': track['external_urls']['spotify']
         }
     return None
+
+
+def save_to_file(data, filename):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=4)
 
 
 def main():
@@ -68,5 +72,6 @@ def main():
     }
     save_to_file(output_data, 'spotify_info.json')
     print("Information saved to spotify_info.json.")
+    
 if __name__ == "__main__":
     main()
