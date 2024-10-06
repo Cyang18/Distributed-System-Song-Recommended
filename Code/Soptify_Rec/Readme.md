@@ -1,4 +1,4 @@
-This is to Get Your API Working run (main):
+This is to Get Your API Working run (main.py):
 
 So go to https://developer.spotify.com/ and make/sign-in to your soptify account.
 
@@ -9,4 +9,7 @@ From there, once the project is made, open it, and click the option setting.
 After opening setting, find your Client ID and Client Secret ID. Then copy these ID, and place them into .env.
 
 
-To get data, for apache spark run (
+
+
+
+To get data, for apache spark run (GettingData.py)
