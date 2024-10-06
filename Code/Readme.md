@@ -6,7 +6,6 @@ pip install python-dotenv
 
 pip install google-cloud-storage spotipy pandas
 
-pip install google-cloud-storage
 
 
 
