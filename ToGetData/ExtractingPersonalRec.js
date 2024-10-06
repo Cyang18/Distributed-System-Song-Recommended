@@ -20,9 +20,7 @@ async function fetchWebApi(endpoint, method, body) {
   return await res.json();
 }
 
-const topTracksIds = [
-  '35JqhVvhuyBoPLLUY8Klqd', '4g2WiijzSKzH8PApKDbadN',
-  '7KW1AtQKFToSoF1kmyk2wE', '2pIUpMhHL6L9Z5lnKxJJr9', '4osgfFTICMkcGbbigdsa53'
+const topTracksIds = [ "place your ids u got here from the first program"
 ];
 
 async function getRecommendations() {
