@@ -1,4 +1,4 @@
-To Get Your API Working:
+This is to Get Your API Working:
 
 So go to https://developer.spotify.com/ and make/sign-in to your soptify account.
 
