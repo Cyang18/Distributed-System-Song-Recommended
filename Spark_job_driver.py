@@ -3,7 +3,7 @@ from pyspark.sql import Row
 
 spark = SparkSession.builder.enableHiveSupport().getOrCreate()
 
-data = [ ] #place data here from
+data = [ ] #place data here from or in bucket
 row_data = [
     Row(
         track_name=item["name"],
