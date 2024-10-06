@@ -13,6 +13,35 @@ client_credentials_manager = SpotifyClientCredentials(
 )
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
+def get_artist_info(artist_name):
+
+    results = sp.search(q=artist_name, type='artist')
+    if results['artists']['items']:
+        artist = results['artists']['items'][0]
+        return {
+            'name': artist['name'],
+            'followers': artist['followers']['total'],
+            'genres': artist['genres'],
+            'popularity': artist['popularity'],
+            'external_url': artist['external_urls']['spotify']
+        }
+    return None
+
+def get_track_info(track_name):
+ 
+    results = sp.search(q=track_name, type='track')
+    if results['tracks']['items']:
+        track = results['tracks']['items'][0]
+        return {
+            'name': track['name'],
+            'artists': [artist['name'] for artist in track['artists']],
+            'album': track['album']['name'],
+            'release_date': track['album']['release_date'],
+            'duration_ms': track['duration_ms'],
+            'external_url': track['external_urls']['spotify']
+        }
+    return None
+
 
 def main():
     artist_name = input("Enter the artist's name: ")
