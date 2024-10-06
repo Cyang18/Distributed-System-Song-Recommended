@@ -4,7 +4,7 @@ pip install requests
 
 pip install python-dotenv
 
-pip install google-cloud-storage spotipy kafka-python pandas
+pip install google-cloud-storage spotipy pandas
 
 pip install google-cloud-storage
 
