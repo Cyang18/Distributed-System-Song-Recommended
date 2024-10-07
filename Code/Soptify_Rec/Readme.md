@@ -10,7 +10,7 @@ From there, once the project is made, open it, and click the option setting.
 
 After opening setting, find your Client ID and Client Secret ID. Then copy these ID, and place them into .env.
 
-
+Run the main.py and get your access token, and make sure to save it.
 
 Second Step:
 
