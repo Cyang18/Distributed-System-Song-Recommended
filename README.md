@@ -17,4 +17,4 @@ This is a distributed system designed to produce recommend songs. It utilizes th
 
 
 #
-Developed by: Chris Yang, Jed, Uriah
+Developed by: Chris Yang, Jedidiah Pollard, Uriah Alenepi
