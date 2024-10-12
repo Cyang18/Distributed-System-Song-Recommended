@@ -14,4 +14,4 @@ Run the main.py and get your access token, and make sure to save it.
 
 Second Step:
 
-To test, if the data fetching work run (GettingData.py)
+To test, if the data fetching work run (APIdataTest.py)
