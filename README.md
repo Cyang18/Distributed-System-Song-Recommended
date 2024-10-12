@@ -1,5 +1,5 @@
 # Distributed System - MusicProducer
-This is a distributed system designed to produce recommend songs. It utilizes the Spotify API to access user song data. The system processes this data to find recommended songs on Spotify for users. By sending the data to Google Cloud Services using Apache Spark, which stores the user information in the cloud and then allows us to generate a list of recommended songs based on their listening history.
+This is a distributed system designed to produce recommend songs. It utilizes the Spotify API to access user song data. The system processes this data to find recommended songs on Spotify for users. By sending the data to Google Cloud Services using Apache Spark, which stores the user information and allows us to generate a list of recommended songs based on their listening history.
 
 
 # Requirements
