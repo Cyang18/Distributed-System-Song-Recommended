@@ -10,7 +10,7 @@ This is a distributed system designed to produce recommend songs. It utilizes th
 - Java Script 
 
 # Where to start
-- Please check the "Where to start.md" to get started.
+Please check the "Where to start.md" to get started.
 
 ##
 
