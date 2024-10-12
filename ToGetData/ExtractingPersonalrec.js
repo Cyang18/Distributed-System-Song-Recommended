@@ -1,4 +1,4 @@
-const token = '';
+const token = ''; //place access token here
 
 const fs = require('fs'); 
 
