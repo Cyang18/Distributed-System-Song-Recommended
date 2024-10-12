@@ -5,6 +5,7 @@ This is a distributed system designed to produce recommend songs. It utilizes th
 # Requirements
 - Soptify Account
 - Access to Google Cloud Services
+- Dataproc
 - Python
 - Java Script 
 
