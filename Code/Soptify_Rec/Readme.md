@@ -1,4 +1,4 @@
-First step:
+# First step:
 
 This is to Get Your API Working run (main.py):
 
@@ -12,6 +12,6 @@ After opening setting, find your Client ID and Client Secret ID. Then copy these
 
 Run the main.py and get your access token, and make sure to save it.
 
-Second Step:
+# Second Step:
 
 To test, if the data fetching work run (APIdataTest.py)
