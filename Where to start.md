@@ -12,7 +12,7 @@
 10. In the job configuration selection select pyspark
 11. Attach the driver file location with the Job configuration, where it asks to add python file. (e.g., gs://your-bucket/path/to/your_script.py)
 12. Excute the Job, and make sure it's successful.
-13. Run another Job through Hive, now in the configuration make sure to select Hive Text.
+13. Run another Job but select Hive, now in the configuration make sure to select Hive Text.
 14. Attach the table name, such as select * from "table name" to the Hive Text command section
 15. Excute
 16. Get user song recommendation
