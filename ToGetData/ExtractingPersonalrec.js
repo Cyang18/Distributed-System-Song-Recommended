@@ -19,6 +19,12 @@ if (!res.ok) {
 const topTracksIds = [ "place your ids u got here from the first program"
 ];
 
+async function getRecommendations() {
+  return (await fetchWebApi(
+    `v1/recommendations?limit=5&seed_tracks=${topTracksIds.join(',')}`, 'GET'
+  )).tracks;
+}
+
     
 
 
