@@ -25,6 +25,24 @@ async function getRecommendations() {
   )).tracks;
 }
 
+async function main() {
+  try {
+    const recommendedTracks = await getRecommendations();
+    
+    const output = recommendedTracks.map(
+      ({ name, artists }) => ({
+        name,
+        artists: artists.map(artist => artist.name),
+      })
+    );
+
+    fs.writeFileSync('recommendedTracks.json', JSON.stringify(output, null, 2), 'utf-8');
+    console.log('Recommendations saved to recommendedTracks.json');
+
+  } catch (error) {
+    console.error(error);
+  }
+}
     
 
 
