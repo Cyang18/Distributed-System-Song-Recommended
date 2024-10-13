@@ -7,7 +7,7 @@ pip install python-dotenv
 pip install google-cloud-storage spotipy pandas
 
 
-# Then Open the 'Soptify_Rec' Folder
+- Then Open the 'Soptify_Rec' Folder
 
 
 
