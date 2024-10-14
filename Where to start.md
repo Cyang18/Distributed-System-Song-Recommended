@@ -61,7 +61,6 @@
 17. **Obtain User Song Recommendations**:
     - After the jobs have completed, retrieve the user song recommendations as specified in your project.
 
-Feel free to ask if you need more clarification on any specific step!
 
 
 # Optional:
