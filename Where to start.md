@@ -65,7 +65,7 @@
 
 # Optional:
 
-For step 9-15 you can run these line commands on the terminal:
+For step 9-16 you can run these line commands on the terminal:
 1. gcloud dataproc jobs submit pyspark gs://your-bucket/path/to/your_script.py \
 2. gcloud dataproc jobs submit hive --file gs://your-bucket/path/to/your_query.hql \
 3. gcloud dataproc jobs wait "pyspark job name" --project "project name" --region "region of project"
