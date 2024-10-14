@@ -3,7 +3,7 @@
 ### Step-by-Step Instructions
 
 1. **Access the Code Files**:
-   - Go to the code file section of your project.
+   - Go to the code file section of this project.
    - Open and read the `README.md` file to understand the project setup and requirements.
 
 2. **Explore the `spotify_rec` Directory**:
