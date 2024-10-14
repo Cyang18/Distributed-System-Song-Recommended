@@ -1,7 +1,5 @@
 # To Start: 
 
-Sure! Here’s a clearer breakdown of the steps you outlined:
-
 ### Step-by-Step Instructions
 
 1. **Access the Code Files**:
